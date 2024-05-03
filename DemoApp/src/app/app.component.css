@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /* background-image: url('/DemoApp/src/laptop.jpg'); */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Align items with space between them */
+    margin-bottom: 20px; /* Add some space between the container and the search bar */
+    margin-top: 50px; /* Add distance from the top */
+  }
+  
+  .demo-app {
+    background-color: white;
+    /* Add any styles for the demo app container */
+  }
+  
+  .nav {
+    color: white;
+    /* Add any styles for the navigation bar */
+  }
+  
+  .search-container {
+    text-align: center; /* Center the search bar */
+    margin-top: 200px; /* Add distance from the top */
+  }
+
+.registerBtn{
+    text-align: center;
+    margin-top: 100px;
+    padding: 10px;
+}
+.content-wrapper{
+  text-align: center;
+  padding: 30px;
+  margin-top: 80px;
+}
+.content-wrapper-inner-content{
+  margin-top: 100px;
+}
+ 
+.content-wrapper-footer{
+  padding: 70px;
+  text-align: center;
+}
+.bottom-content{
+  padding: 70px;
+}
+  #job-description {
+    width: 500px; /* Adjust the width as needed */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px; /* Adjust spacing between input and button */
+  }
+  
+  #search-button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
